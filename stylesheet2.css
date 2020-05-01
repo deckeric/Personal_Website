@@ -1,0 +1,16 @@
+#pic1{
+    background-image: url("bkrnd2.jpeg");
+    height: 671px;
+    background-attachment: fixed;
+}
+#pic2{
+    background-image: url("bkrnd2.jpeg");
+    height: 671px;
+    background-attachment: fixed;
+
+}
+div{
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    display: block;
+}

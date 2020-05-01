@@ -1,0 +1,82 @@
+body, html{
+    height: 100%;
+    margin: 0;
+    background-color: gray;
+}
+.bg{
+    background-image: url("bkrnd2.jpeg");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 0;
+    margin: 0;
+}
+.centered{
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size: xx-large;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: azure;
+}
+img:hover{
+    cursor: pointer;
+    transform: scale(1.25);   
+}
+img{
+    padding-inline-start: 7px;
+}
+h2{
+    margin: 0;
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+div.sticky {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    background-color: #333;
+    border-bottom: 1px solid #bbb;
+    padding: 0;
+    margin: 0;
+  }
+.sticky ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    border-bottom: 1px solid #bbb;
+  }
+.sticky li{
+    float: left;
+    border-right: 1px solid #bbb;
+    
+  }
+.sticky li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+.sticky li a:hover {
+    background-color: #111;
+  }
+.text p,h2{
+    color: azure;
+    margin: 0;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 0;
+    text-align: center;
+    line-height: 1.5em;
+}
+h2{
+    height: 100%;
+}
+
